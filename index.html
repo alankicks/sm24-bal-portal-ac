@@ -113,12 +113,12 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      if (localStorage.getItem('agreedToTerms')) {
+      if (localStorage.getItem('agreedToTermsBallarat')) {
         window.location.href = 'https://sites.google.com/kicksentertainment.com.au/sm24-ballarat-home/home';
       }
 
       document.getElementById('agree-button').addEventListener('click', function () {
-        localStorage.setItem('agreedToTerms', 'true');
+        localStorage.setItem('agreedToTermsBallarat', 'true');
         window.location.href = 'https://sites.google.com/kicksentertainment.com.au/sm24-ballarat-home/home';
       });
 
